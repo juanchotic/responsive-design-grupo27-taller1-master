@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 480px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+    min-width: 480px;
+    max-width: 2850px;
+}
+
+/* Encabezado de página y barar de navegación */
+
+header{
+    width: 100%;
+    height: 10vh;
+    min-width: 480px;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(81, 62, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 480px;
+}
+
+header nav ul{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+header nav ul li:hover{
+    background-color: rgb(104, 93, 199);
+    cursor: pointer;
+}
+
+/* Fin encabezado de página y barar de navegación */
+
+/* Banner */
+
+.container{
+    background-image: url('https://www.javeriana.edu.co/pesquisa/wp-content/uploads/2020/05/Educaci%C3%B3n-virtual.jpg');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container .filter{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .filter .col60{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.container .filter .col60 h2{
+    font-size: 2.8rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container .filter .col60 p{
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.container .filter .col60 button{
+    width: 30%;
+    padding: 5px 10px;
+    background-color: rgb(81, 62, 189);
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer
+}
+
+/* Fin banner */
+
+/* Container main */
+
+.container-main{
+    width: 100%;
+}
+
+.container-main .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-main .row .col-30{
+    width: 18em;
+    height: 22em;
+    margin: 20px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-main .row .col-30:nth-child(1){
+    background-image: url('https://educaixa.org/documents/10180/40790822/BANNER+RESUMIDAS+12.jpg/29bec2c6-b49f-d020-7ea1-1f530fc750fd?t=1595593377635');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-main .row .col-30:nth-child(2){
+    background-image: url('http://www.equiposytalento.com/upload/talent_noticias/002/2833/trabajoequipo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-main .row .col-30:nth-child(3){
+    background-image: url('https://eduglobal.cl/wp-content/uploads/2019/02/educacion-autodidacta.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.container-main .row .col-30 h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+.container-main .row .col-30 p{
+    font-size: 1.4rem;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* fin container main */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 50vh;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(89, 138, 218);
+}
+
+/* COLUMNA 1 */
+footer .row .col-30:nth-child(1){
+    width: 16em;
+}
+
+footer .row .col-30:nth-child(1) ol{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(1) ol li{
+    list-style: none;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+footer .row .col-30:nth-child(1) ol li:hover{
+    color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+/* COLUMNA 2 */
+
+footer .row .col-30:nth-child(2){
+    width: 16em;
+}
+
+footer .row .col-30:nth-child(2) ol{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(2) ol li{
+    list-style: none;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+footer .row .col-30:nth-child(2) ol li:hover{
+    color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+
+footer .row .col-30:nth-child(3){
+    width: 18em;
+}
+
+footer .row .col-30:nth-child(3) h2{
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+
+/* fin Footer */
+
+/* Media Queries ******************************************************************/
+
+/*RESOLUCIONES
+1080
+768
+480
+370
+
+*/
+
+@media (max-width: 1080px){
+    header nav ul li{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 768px){
+    footer .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .row .col-30 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header nav ul li{
+        font-size: 1.2rem;
+    }
+
+    .container .filter .col60{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+    .container .filter .col60 h2{
+        font-size: 1.5rem;
+    }
+    
+    .container .filter .col60 p{
+        font-size: 1.2rem;
+    }
+    
+    .container .filter .col60 button{
+        width: 50%;
+        font-size: 1.0rem;
+        
+    }
+
+    .container-main .row{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-main .row .col-30{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (max-width: 370px){
+
+
+    .container .filter .col60{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .container .filter .col60 h2{
+        font-size: 1.8rem;
+    }
+    
+    .container .filter .col60 p{
+        font-size: 1.2rem;
+    }
+    
+    .container .filter .col60 button{
+        width: 50%;
+        font-size: 1.2rem;
+        
+    }
+    
+    .container-main .row{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-main .row .col-30{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    footer .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
